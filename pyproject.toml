@@ -1,3 +1,10 @@
+[project]
+name = "project-museums"
+version = "1.0.0"
+
+[project.scripts]
+museums_loader = "museums_loader:run_process"
+
 [tool.alembic]
 
 # path to migration scripts.
@@ -79,4 +86,52 @@ prepend_sys_path = [
 # type = "exec"
 # executable = "ruff"
 # options = "check --fix REVISION_SCRIPT_FILENAME"
+
+# Глобальные параметры:
+
+[tool.mypy]
+python_version = 3.11
+#mypy_path = "./src"  
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+
+#namespace_packages = on
+#explicit_package_bases = on
+#warn_no_return = off
+#warn_unused_configs = on
+#warn_unused_ignores = on
+#warn_redundant_casts = on
+#no_implicit_optional = on
+#no_implicit_reexport = on
+#strict_equality = on
+#warn_unreachable = on
+#disallow_untyped_calls = on
+#disallow_untyped_defs = on
+
+exclude = []
+files = ["src", "tests"]
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
 

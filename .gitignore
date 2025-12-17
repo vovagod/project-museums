@@ -183,8 +183,11 @@ pyrightconfig.json
 
 venv
 static
+certs
 .env
 db.sqlite
 .env*
 help.txt
+help
+logs
 

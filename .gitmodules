@@ -1,0 +1,4 @@
+[submodule "proto"]
+  path = proto
+  url = ssh://git@github.com:7999/vovagod/project-specifications.git
+  branch = project-spec
