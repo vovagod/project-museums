@@ -1,9 +1,16 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
 [project]
-name = "project-museums"
+name = "museums"
 version = "1.0.0"
 
 [project.scripts]
-museums_loader = "museums_loader:run_process"
+museum_loader = "museums.loaders.museum_loader:run_process"
+
+[tool.setuptools.packages.find]
+where = ["."]
 
 [tool.alembic]
 
@@ -87,51 +94,133 @@ prepend_sys_path = [
 # executable = "ruff"
 # options = "check --fix REVISION_SCRIPT_FILENAME"
 
+[tool.alembic.loggers]
+keys = ["root", "sqlalchemy", "alembic"]
+
+[tool.alembic.handlers]
+keys = "console"
+
+[tool.alembic.formatters]
+keys = "generic"
+
+[tool.alembic.logger_root]
+level = "WARNING"
+handlers = "console"
+qualname = ""
+
+[tool.alembic.logger_sqlalchemy]
+level = "WARNING"
+handlers = ""
+qualname = "sqlalchemy.engine"
+
+[tool.alembic.logger_alembic]
+level = "INFO"
+handlers = ""
+qualname = "alembic"
+
+[tool.alembic.handler_console]
+class = "StreamHandler"
+args = "(sys.stderr,)"
+level = "NOTSET"
+formatter = "generic"
+
+[tool.alembic.formatter_generic]
+format = "%(levelname)-5.5s [%(name)s] %(message)s"
+datefmt = "%H:%M:%S"
+
 # Глобальные параметры:
 
 [tool.mypy]
 python_version = 3.11
-#mypy_path = "./src"  
+#mypy_path = ["./src"]  
 warn_return_any = true
 warn_unused_configs = true
 disallow_untyped_defs = true
 disallow_incomplete_defs = true
 
-#namespace_packages = on
-#explicit_package_bases = on
-#warn_no_return = off
-#warn_unused_configs = on
-#warn_unused_ignores = on
-#warn_redundant_casts = on
-#no_implicit_optional = on
-#no_implicit_reexport = on
-#strict_equality = on
-#warn_unreachable = on
-#disallow_untyped_calls = on
+namespace_packages = true
+explicit_package_bases = true
+warn_no_return = true
+#warn_unused_configs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+no_implicit_optional = true
+no_implicit_reexport = true
+strict_equality = true
+warn_unreachable = true
+disallow_untyped_calls = true
 #disallow_untyped_defs = on
 
-exclude = []
-files = ["src", "tests"]
+exclude = "data"
+files = "src"
 
-[[tool.mypy.overrides]]
-module = "tests.*"
-disallow_untyped_defs = false
+#[mypy-engines.*]
+#follow_untyped_imports = True
 
+#[[tool.mypy.overrides]]
+#module = "tests.*"
+#disallow_untyped_defs = false
+
+# Настройки с проекта cloudquota
 [tool.black]
-line-length = 79
+line-length = 120
+target-version = ['py311']
 include = '\.pyi?$'
 exclude = '''
-/(
-    \.git
-  | \.hg
-  | \.mypy_cache
-  | \.tox
-  | \.venv
-  | _build
-  | buck-out
-  | build
-  | dist
-)/
+(
+    \.eggs
+    | \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+    | setup.py
+    | data
+)
 '''
 
+[tool.flake8]
+max-line-length = 120
+inline-quotes = "\""
+ignore = [
+    "DJ05", # URLs ...
+    "E203", # whitespace before ...
+]
+
+exclude = [
+    "alembic",
+    ".git",
+    "__pycache__",
+    "data",
+    "venv",
+]
+
+[tool.isort]
+profile = "black"
+src_paths = ["src", "test"]
+extra_standard_library = ["pytest"]
+#known_django = ["django", "restframework"]
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+use_parentheses = true
+include_trailing_comma = true
+multi_line_output = 3
+#skip = ['data']
+
+[tool.autoflake]
+recursive = true
+exclude = "data"
+remove-all-unused-imports = true
+in-place = true
+
+[tool.pytest]
+minversion = "9.0"
+addopts = ["-ra", "-q"]
+testpaths = [
+    "tests",
+    "integration",
+]
 
