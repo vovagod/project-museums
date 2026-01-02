@@ -1,0 +1,101 @@
+{
+    "ГАУК ЯО «Переславль-Залеский историко-архитектурный и художественный музей-заповедник»":[
+        {
+            "branch":"Временные выставки",
+            "showcase":"Женщина XX столетия. Живопись, скульптура",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/b9941017-f9c0-11ef-a0c9-55a88fa2d635/#:~:text=%D0%A1%207%20%D0%BC%D0%B0%D1%80%D1%82%D0%B0,%3A%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%2010",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/b9941017-f9c0-11ef-a0c9-55a88fa2d635/",
+            "class_name":"information"
+        },
+        {
+            "branch":"Временные выставки",
+            "showcase":"Сказочные миры Ивана Яковлевича Билибина",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/2af36dd6-caab-11f0-93fd-55a88fa2d635/#:~:text=%D0%A1%2012%20%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F,%3A%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%2010",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/2af36dd6-caab-11f0-93fd-55a88fa2d635/"
+        },
+        {
+            "branch":"Временные выставки",
+            "showcase":"Волшебство анимации. К 105-летию Леонида Ароновича Шварцмана",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/a7540a4a-cc2e-11f0-b7cd-55a88fa2d635/#:~:text=%D0%A1%206%20%D0%B4%D0%B5%D0%BA%D0%B0%D0%B1%D1%80%D1%8F,%3A%20%D0%A0%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%2010",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/a7540a4a-cc2e-11f0-b7cd-55a88fa2d635/"
+        },
+        {
+            "branch":"Временные выставки",
+            "showcase":"...Ученый, способный Сергей Сергеич",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/82e9a760-88c9-11f0-babb-55a88fa2d635/#:~:text=%D0%92%20%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%BE%D0%BC%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B5,%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D0%BA%204",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/82e9a760-88c9-11f0-babb-55a88fa2d635/"
+        },
+        {
+            "branch":"Музей",
+            "showcase":"О музее",
+            "history":"https://www.museumpereslavl.ru/ru/museum/about_museum/#:~:text=%D0%9C%D1%83%D0%B7%D0%B5%D0%B9%20%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%B0%D0%BD%20%D0%B2,%D1%81%D0%BE%D0%B1%D0%B8%D1%80%D0%B0%D1%8E%D1%82%20%D1%82%D1%8B%D1%81%D1%8F%D1%87%D0%B8%20%D0%B3%D0%BE%D1%81%D1%82%D0%B5%D0%B9.",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/about_museum/"
+        },
+        {
+            "branch":"Музей",
+            "showcase":"История Успенского Горицкого монастыря",
+            "history":"https://www.museumpereslavl.ru/ru/museum/about_museum/goritcy/#:~:text=%D0%9F%D0%B5%D1%80%D0%B2%D0%BE%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F%20%D0%A3%D1%81%D0%BF%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B3%D0%BE,%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%BE%D0%BC%20%D0%A1%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%BC%20%D0%B3%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5.",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/about_museum/goritcy/"
+        },
+        {
+            "branch":"Музей",
+            "showcase":"История Переславского музея",
+            "history":"https://www.museumpereslavl.ru/ru/museum/about_museum/history-museum/#:~:text=%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%2D%D0%97%D0%B0%D0%BB%D0%B5%D1%81%D1%81%D0%BA%D0%B8%D0%B9%20%D0%B8%D1%81%D1%82%D0%BE%D1%80%D0%B8%D0%BA%D0%BE,%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B5%20%D1%81%D0%BE%D0%B2%D0%B5%D1%82%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B0.",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/about_museum/history-museum/"
+        },
+        {
+            "branch":"Музей",
+            "showcase":"История индустриальной площадки музея",
+            "history":"https://www.museumpereslavl.ru/ru/museum/about_museum/museum-lit/#:~:text=%D0%98%D0%BD%D0%B4%D1%83%D1%81%D1%82%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%D0%BD%D0%B0%D1%8F%20%D0%BF%D0%BB%D0%BE%D1%89%D0%B0%D0%B4%D0%BA%D0%B0,%D0%9F%D0%B5%D1%80%D0%B5%D1%81%D0%BB%D0%B0%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE%20%D0%BC%D1%83%D0%B7%D0%B5%D1%8F%2D%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D0%B5%D0%B4%D0%BD%D0%B8%D0%BA%D0%B0.",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/about_museum/museum-lit/"
+        },
+        {
+            "branch":"Экспозиции и постоянные выставки Ботик Петра I",
+            "showcase":"Белый дворец - Петровские достопамятности",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/d361a268-7d20-11ed-bf8b-55a88fa2d635/#:~:text=%D0%9F%D1%80%D0%B5%D0%B7%D0%B5%D0%BD%D1%82%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B2%D1%8B%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B8%20%D0%BE%D1%82%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D1%85,%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%3A%20%D0%91%D0%BE%D1%82%D0%B8%D0%BA",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/d361a268-7d20-11ed-bf8b-55a88fa2d635/"
+        },
+        {
+            "branch":"Экспозиции и постоянные выставки Ботик Петра I",
+            "showcase":"Бот Фортуна",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/538ed646-9da6-11e5-90fb-55a88fa2d635/#:~:text=%D0%91%D0%BE%D1%82%D0%BD%D1%8B%D0%B9%20%D0%B4%D0%BE%D0%BC%20%2D%20%D1%81%D1%82%D0%B0%D1%80%D0%B5%D0%B9%D1%88%D0%B8%D0%B9,%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%3A%20%D0%91%D0%BE%D1%82%D0%B8%D0%BA",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/538ed646-9da6-11e5-90fb-55a88fa2d635/"
+        },
+        {
+            "branch":"Экспозиции и постоянные выставки Ботик Петра I",
+            "showcase":"Белый дворец - экспозиция В начале славных дел",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/f1b3fd2e-9e5d-11e5-90fb-55a88fa2d635/#:~:text=%D0%9E%D1%82%D0%BA%D1%80%D1%8B%D1%82%D0%B0%205%20%D0%BC%D0%B0%D1%8F,%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%3A%20%D0%91%D0%BE%D1%82%D0%B8%D0%BA",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/f1b3fd2e-9e5d-11e5-90fb-55a88fa2d635/"
+        },
+        {
+            "branch":"Экспозиции и постоянные выставки Ботик Петра I",
+            "showcase":"Образ Петра I в изобразительном искусстве",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/ed85c9f3-9e6d-11e5-90fb-55a88fa2d635/#:~:text=%D0%93%D0%B5%D1%80%D0%BE%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0%D1%8F%20%D0%B8%20%D0%BB%D0%B5%D0%B3%D0%B5%D0%BD%D0%B4%D0%B0%D1%80%D0%BD%D0%B0%D1%8F,%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%3A%20%D0%91%D0%BE%D1%82%D0%B8%D0%BA",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/ed85c9f3-9e6d-11e5-90fb-55a88fa2d635/"
+        },
+        {
+            "branch":"Экспозиции и постоянные выставки Ботик Петра I",
+            "showcase":"КЛЁВое место",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/e2c40497-bb76-11e5-90fb-55a88fa2d635/#:~:text=%C2%AB%D0%9A%D0%9B%D0%81%D0%92%D0%BE%D0%B5%20%D0%BC%D0%B5%D1%81%D1%82%D0%BE%C2%BB%20%E2%80%93%20%D1%8D%D1%82%D0%BE,%D0%BF%D1%80%D0%BE%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D1%8F%20%3A%20%D0%91%D0%BE%D1%82%D0%B8%D0%BA",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/e2c40497-bb76-11e5-90fb-55a88fa2d635/"
+        },
+        {
+            "branch":"Музей-усадьба Ганшиных",
+            "showcase":"История Усадьбы Ганшиных",
+            "history":"https://www.museumpereslavl.ru/ru/branch/museum_hans/#:~:text=%D0%92%201880%20%D0%B3%D0%BE%D0%B4%D1%83,%D0%BA%D1%80%D0%B5%D1%81%D1%82%D1%8C%D1%8F%D0%BD%20%D1%82%D0%BE%D0%B3%D0%BE%20%D0%BF%D0%B5%D1%80%D0%B8%D0%BE%D0%B4%D0%B0.",
+            "webpage":"https://www.museumpereslavl.ru/ru/branch/museum_hans/"
+        },
+        {
+            "branch":"Музей-усадьба Ганшиных",
+            "showcase":"Усадьба Ганшиных - Горки Ленинские",
+            "history":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/d4457711-bae8-11e6-9dd8-55a88fa2d635/#:~:text=%D0%9F%D0%BE%D1%81%D0%B5%D1%82%D0%B8%D0%B2%20%D0%BC%D1%83%D0%B7%D0%B5%D0%B9%2C%20%D0%B2%D1%8B,%3A%20%D0%A3%D1%81%D0%B0%D0%B4%D1%8C%D0%B1%D0%B0%20%D0%93%D0%B0%D0%BD%D1%88%D0%B8%D0%BD%D1%8B%D1%85",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/museum_exhibition/detail/d4457711-bae8-11e6-9dd8-55a88fa2d635/"
+        },
+        {
+            "branch":"Спасо-Преображенский собор",
+            "showcase":"Спасо-Преображенский собор",
+            "history":"https://www.museumpereslavl.ru/ru/branch/cathedral/#:~:text=%D0%A1%D0%BF%D0%B0%D1%81%D0%BE%2D%D0%9F%D1%80%D0%B5%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9%20%D1%81%D0%BE%D0%B1%D0%BE%D1%80%20%D0%A5II,%C2%AB%D0%9F%D0%B5%D1%80%D0%B5%D1%8F%D1%81%D0%BB%D0%B0%D0%B2%D0%BB%D1%8C%20%D0%BD%D0%BE%D0%B2%D1%8B%D0%B9%C2%BB.",
+            "webpage":"https://www.museumpereslavl.ru/ru/branch/cathedral/"
+        }
+    ]
+}

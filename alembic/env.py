@@ -3,7 +3,10 @@ from logging.config import fileConfig
 from alembic import context
 from sqlalchemy import engine_from_config, pool
 
-from src.museums.engines.sqldb import database_url
+from src.museums.engines.sqldb import Base, database_url
+
+#from src.museums.models.museum_tables import Category, Location, Museum
+#from src.museums.models.exposition_table import Exposition
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
@@ -20,12 +23,12 @@ config.set_main_option("sqlalchemy.url", database_url())
 # add your model's MetaData object here
 # for 'autogenerate' support
 from src.museums.models import museum_tables
+from src.museums.models import exposition_tables
 
-# target_metadata = mymodel.Base.metadata
+#target_metadata = Base.metadata
 target_metadata = [ 
     museum_tables.Museum.metadata,
-    #museum_tables.Category.metadata,
-    #museum_tables.Location.metadata,
+    #exposition_tables.Exposition.metadata,
     ]
 
 # other values from the config, defined by the needs of env.py,

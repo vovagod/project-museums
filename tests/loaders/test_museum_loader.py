@@ -1,6 +1,4 @@
-#import pytest
 from tests.common import BASE_DIR
-#from factory_museums import LocationFactory, CategoryFactory, MuseumFactory
 from museums.loaders.museum_loader import DownloadDataFromCsv, SchemaConverter
 
 LINK = BASE_DIR + "/data/data-20-structure-4-one.csv"

@@ -1,0 +1,28 @@
+{
+    "ГАУК ЯО «Переславль-Залеский историко-архитектурный и художественный музей-заповедник»":[
+        {
+            "id":1,
+            "branch":"Временные выставки",
+            "showcase":"Женщина XX столетия. Живопись, скульптура",
+            "history":"https://vladmuseum.ru/ru/exposition/vladimir/palaty/iskusstvo-provintsii-xviii-pervoy-poloviny-xix-veka/",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/b9941017-f9c0-11ef-a0c9-55a88fa2d635/",
+            "class_name":"news-detail-text mt-4"
+        },
+        {
+            "id":2,
+            "branch":"Временные выставки",
+            "showcase":"Женщина XX столетия. Живопись, скульптура",
+            "history":"https://vladmuseum.ru/ru/exposition/vladimir/palaty/iskusstvo-provintsii-xviii-pervoy-poloviny-xix-veka/",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/b9941017-f9c0-11ef-a0c9-55a88fa2d635/",
+            "class_name":"hide-show"
+        },
+        {
+            "id":3,
+            "branch":"Временные выставки",
+            "showcase":"Женщина XX столетия. Живопись, скульптура",
+            "history":"https://vladmuseum.ru/ru/exhibition/actual_exhibition/polenov-i-ucheniki/",
+            "webpage":"https://www.museumpereslavl.ru/ru/museum/exhibition/detail/b9941017-f9c0-11ef-a0c9-55a88fa2d635/",
+            "class_name":"news-detail-text"
+        }
+    ]
+}

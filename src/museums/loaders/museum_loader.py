@@ -9,11 +9,7 @@ from sqlalchemy.exc import DataError, DBAPIError, IntegrityError
 
 from museums.config import BASE_DIR  # type:ignore  [import-untyped]
 from museums.engines import sqldb  # type:ignore  [import-untyped]
-from museums.models.museum_tables import (  # type:ignore  [import-untyped]
-    Category,
-    Location,
-    Museum,
-)
+from museums.models.museum_tables import Category, Location, Museum  # type:ignore  [import-untyped]
 from museums.utils.clean_tables import CleanTables  # type:ignore  [import-untyped]
 
 logger = logging.getLogger(__name__)
@@ -161,7 +157,12 @@ class DownloadDataFromCsv:
         self.df.rename(columns={column: renamed}, inplace=True)
         self.df[renamed] = self.df[renamed].astype("Int32")
 
-    def record_table(self, table: str, data: pd.DataFrame, engine=sqldb.engine) -> int:  # type:ignore [no-untyped-def]
+    def record_table(
+        self,
+        table: str,
+        data: pd.DataFrame,
+        engine=sqldb.engine
+    ) -> int:  # type:ignore [no-untyped-def]
         """Запись подготовленного dataframe в таблицу БД"""
 
         logging.info(f"Record_table stage..., table: {table}, table types: {data.dtypes}")
@@ -173,7 +174,7 @@ class DownloadDataFromCsv:
                 if_exists="append",
                 index=True,
                 index_label="id",
-                method="multi",
+                method='multi',
                 chunksize=1000,
             )
         except (DBAPIError, IntegrityError, DataError) as e:

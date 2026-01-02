@@ -22,9 +22,9 @@ engine_async = create_async_engine(url=database_url(settings.DB_BASE_ASYNC))
 engine = create_engine(url=database_url())
 
 # Создаем фабрику сессий для взаимодействия с базой данных
-async_session_maker = async_sessionmaker(engine, expire_on_commit=False)  # type:ignore [call-overload]
-session_maker = sessionmaker(bind=engine)
-metadata_obj = MetaData(schema="public")
+#async_session_maker = async_sessionmaker(engine, expire_on_commit=False)  # type:ignore [call-overload]
+#session_maker = sessionmaker(bind=engine)
+metadata_obj = MetaData() #(schema="public")
 
 
 class Base(DeclarativeBase):
